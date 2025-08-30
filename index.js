@@ -138,6 +138,8 @@ app.get('/results', async (req, res) => {
   }
 });
 
-app.listen(PORT, () => {
-  console.log(`AI Detection Results API listening: http://localhost:${PORT}`);
-});
+// app.listen(PORT, () => {
+//   console.log(`AI Detection Results API listening: http://localhost:${PORT}`);
+// });
+
+module.exports = { app, detectForQuestion };
