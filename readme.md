@@ -54,12 +54,12 @@ node server.js
 ```
 
 ### 4. Test the API
-- **Get results for all questions
+- **Get results for all questions**
 ```bash
 http://localhost:3000/results
 ```
 
-- **Get result for a single question
+- **Get result for a single question**
 ```bash
 "http://localhost:3000/results?question=Why this company?"
 ```
@@ -100,11 +100,11 @@ http://localhost:3000/results
 ## Running Unit Tests
 We use Jest to test fallback logic. The code is in detect.test.js file.
 
-- **Run Tests
+- **Run Tests**
 ```bash
 npx jest
 ```
--** Expected output:
+- **Expected output:**
 ```bash
  PASS  test/detect.test.js
   ✓ detectForQuestion should return a result with model or error (1054 ms)
